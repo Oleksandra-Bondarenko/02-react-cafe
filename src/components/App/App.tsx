@@ -56,3 +56,13 @@ function App() {
 }
 
 export default App;
+
+// conditional rendering:
+// {totalVotes > 0 && (
+//   <VoteStats
+//     votes={votes}
+//     totalVotes={totalVotes}
+//     positiveRate={positiveRate}
+//   ></VoteStats>
+// )}
+// {totalVotes === 0 && <Notification></Notification>}
